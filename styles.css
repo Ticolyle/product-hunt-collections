@@ -58,3 +58,27 @@ a {
   color: white; }
   .btn-tweet:hover {
     color: white; }
+
+@media screen and (max-width: 400px) {
+  h1.page-title {
+    font-size: 3em; }
+
+  .collection {
+    display: block;
+    text-align: center; }
+    .collection img {
+      margin: auto;
+      width: 5em;
+      height: 5em;
+      margin-bottom: 1em; }
+    .collection img, .collection h3, .collection p {
+      display: block; } }
+@media print {
+  .btn-tweet {
+    display: none; }
+
+  .collection {
+    background-color: transparent;
+    margin-top: 0; }
+    .collection h3, .collection p {
+      color: black; } }
