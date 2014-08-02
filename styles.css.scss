@@ -1,0 +1,86 @@
+$orange: #da552f;
+
+$font-stack: "proxima-nova", "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
+
+body {
+  font-family: $font-stack;
+  padding-bottom: 5em;
+}
+
+h1.page-title {
+  color: $orange;
+  font-weight: bold;
+  font-size: 3.66em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  color: $orange;
+
+  &:hover {
+    color: darken($orange, 6%);
+  }
+}
+
+.collection {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 1.5em;
+  box-sizing: border-box;
+  margin-top: 1em;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+
+  img {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 1.5em;
+  }
+
+  h3 {
+    display: inline-block;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 7px;
+  }
+
+  .btn-container {
+    display: block;
+  }
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.btn-orange {
+  background-color: $orange;
+  border-color: darken($orange, 4%);
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-tweet {
+  background-color: #00ACED;
+  border-color: darken(#00ACED, 4%);
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}

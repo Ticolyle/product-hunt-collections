@@ -1,0 +1,60 @@
+body {
+  font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom: 5em; }
+
+h1.page-title {
+  color: #da552f;
+  font-weight: bold;
+  font-size: 3.66em; }
+
+p {
+  font-size: 1.2em; }
+
+a {
+  color: #da552f; }
+  a:hover {
+    color: #c74823; }
+
+.collection {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 1.5em;
+  box-sizing: border-box;
+  margin-top: 1em;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex; }
+  .collection img {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 1.5em; }
+  .collection h3 {
+    display: inline-block;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    text-transform: uppercase; }
+  .collection p {
+    margin-bottom: 7px; }
+  .collection .btn-container {
+    display: block; }
+
+.btn {
+  border-radius: 8px; }
+
+.btn-orange {
+  background-color: #da552f;
+  border-color: #d04b25;
+  color: white; }
+  .btn-orange:hover {
+    color: white; }
+
+.btn-tweet {
+  background-color: #00ACED;
+  border-color: #009dd9;
+  color: white; }
+  .btn-tweet:hover {
+    color: white; }
