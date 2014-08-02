@@ -63,6 +63,9 @@ a {
   h1.page-title {
     font-size: 3em; }
 
+  .col-md-8 {
+    padding: 0 6px; }
+
   .collection {
     display: block;
     text-align: center; }
@@ -72,7 +75,9 @@ a {
       height: 5em;
       margin-bottom: 1em; }
     .collection img, .collection h3, .collection p {
-      display: block; } }
+      display: block; }
+    .collection p {
+      margin-bottom: 9px; } }
 @media print {
   .btn-tweet {
     display: none; }
