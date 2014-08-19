@@ -11,13 +11,14 @@ p {
   font-size: 1.2em; }
 
 a {
-  color: #da552f; }
+  color: #da552f;
+  text-decoration: underline; }
   a:hover {
     color: #c74823; }
 
 .collection {
   width: 100%;
-  background-color: #f6f6f6;
+  background-color: #f2f2f2;
   padding: 1.5em;
   box-sizing: border-box;
   margin-top: 1em;
@@ -31,33 +32,42 @@ a {
     margin-right: 1.5em; }
   .collection h3 {
     display: inline-block;
-    color: #aaa;
-    font-weight: bold;
+    color: #333;
+    font-weight: 600;
     font-size: 1.5em;
     letter-spacing: 0.05rem;
     margin-top: 0;
     text-transform: uppercase; }
   .collection p {
-    margin-bottom: 7px; }
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: #bbbbbb; }
   .collection .btn-container {
     display: block; }
 
 .btn {
-  border-radius: 8px; }
+  color: white;
+  border-radius: 18px;
+  padding: 6px 17px;
+  text-decoration: none; }
+  .btn:hover {
+    color: white;
+    transition: all 0.15s ease-in-out; }
 
 .btn-orange {
   background-color: #da552f;
-  border-color: #d04b25;
-  color: white; }
+  border: 2px solid #da552f;
+  font-weight: 600; }
   .btn-orange:hover {
-    color: white; }
+    border-color: #b8330d;
+    box-shadow: 0px 0px 8px #da552f; }
 
 .btn-tweet {
   background-color: #00ACED;
-  border-color: #009dd9;
-  color: white; }
+  border: 2px solid #00ACED; }
   .btn-tweet:hover {
-    color: white; }
+    border-color: #008ec4;
+    box-shadow: 0px 0px 8px #0099d3; }
 
 @media screen and (max-width: 400px) {
   h1.page-title {
